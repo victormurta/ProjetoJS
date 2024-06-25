@@ -13,10 +13,7 @@ function processInput() {
 }
 
 function adivinhaAnimal(){
-    /*Está vivo hoje? --> É imaginário? --> pluricelular? --> vertebrado ou invertebrado --> mamiferos, peixes, répteis, aves --> nada, voa, anda --> perguntas específicas
-                                                        --> protozoário, amoeba --> perguntas específicas
-            
-
+    /*
             Estão vivos:
                 Pluricelular:
                     Vertebrados:
@@ -25,11 +22,17 @@ function adivinhaAnimal(){
                                 Maltês, Um gato
                             não é doméstico:
                                 é aquático:
-                                    Baleia, Lontra
+                                    é grande:
+                                        Baleia
+                                    não é grande
+                                        Lontra
                                 voa:
                                     Morcego
                                 terrestre:
-                                    vaca, porco
+                                    Faz toicinho:
+                                        vaca
+                                    Não faz toicinho
+                                        porco
                         peixes:
                             oceano profundo:
                                 peixe-lanterna, peixe-bolha
@@ -42,17 +45,51 @@ function adivinhaAnimal(){
                                     água salgada:
                                         tubarão 
                         répteis:
-                            calango, iguana
-                            víbora, giboia
-                            jabuti, tartaruga
+                            tem casco:
+                                tartaruga, jabuti
+                                    Nada:
+                                        tartaruga
+                                    Não nada:
+                                        jabuti
+                                Não tem casco:
+                                    tem patas:
+                                        pequeno:
+                                            calango
+                                        grande:
+                                            iguana
+                                    Não tem patas:
+                                        tem veneno:
+                                            víbora
+                                        Não tem veneno
+                                            giboia
                         aves:
-                            pombo, harpia
-                            galinha, avestruz
-
+                            voa:
+                                é da cidade:
+                                    pombo
+                                não é da cidade
+                                    harpia
+                            não voa:
+                                pequeno:
+                                    galinha
+                                grande: 
+                                    avestruz
                     Invertebrados:
-                            Lombriga, planária
-                            Polvo, Estrela-do-mar
-                            Água-viva, Ouriço-do-mar
+                        é do mar:
+                            tem toxina:
+                                se move:
+                                    Água-viva
+                                não se move:
+                                    Ouriço-do-mar,
+                            Não tem toxina:
+                                tem tinta:
+                                    Polvo
+                                Não tem tinta:
+                                    Estrela-do-mar
+                        não é do mar:
+                            infecta humanos:
+                                Lombriga
+                            não infecta humanos:
+                                planária
                 Unicelulares:
                     Bactérias
                     Protozoários
