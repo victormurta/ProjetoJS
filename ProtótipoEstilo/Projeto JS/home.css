@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+
+h1{
+    font-family: "Playwrite IT Moderna";
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 25px; /* Espaçamento superior entre o parágrafo e as listas */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da janela visível */
+    margin: 0; /* Remove margem padrão do body */
+    flex-direction: column;
+}
+
+section{
+    background-color: white;
+    opacity: 70%;
+    align-self: center;
+    width: 80%; /* Largura da section */
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.colunas{
+    border-radius: 10px 10px;
+}
+
+.lista {
+    display: flex; /* Faz com que as uls se comportem como flex containers */
+    flex-wrap: wrap; /* Permite que as uls quebrem para a próxima linha quando não houver espaço */
+    justify-content: space-around; /* Espaço igual entre as uls */
+    margin-bottom: 15px; /* Espaçamento entre a lista e o link */
+    margin-top: -20px;
+    align-items: flex-start; /* Alinha os itens na parte superior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius:0 0 10px 10px;
+  }
+
+
+    
+
+.lista ul {
+    width: auto; /* Ajusta automaticamente a largura das colunas */
+    flex-basis: auto; /* Permite que as colunas cresçam e diminuam */
+    list-style-type: none; /* Remove os marcadores padrão das listas */
+    padding: 0; /* Remove o padding padrão das listas */
+    margin: 10px; /* Espaçamento entre as colunas das uls */
+    margin-top: -20px;
+  }
+
+  .lista ul li {
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+    padding-left: 10px; /* Espaçamento interno à esquerda para separar os itens */
+    word-break: break-all; /* Quebra as palavras em várias linhas */
+    text-align: left;
+  }
+
+.começo {
+    display: block; /* Faz com que o link se comporte como um bloco */
+    width: 100%; /* Define a largura total */
+    text-align: center; /* Centraliza o texto dentro do link */
+    background-color: #FFC92B;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0; /* Espaçamento interno do link */
+    text-decoration: none; /* Remove sublinhado padrão */
+    border-radius: 5px;
+    margin-top: 10px; /* Espaçamento superior */
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.começo:hover{
+    box-shadow: none;
+    
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Largura total do footer */
+    background-color: #003727;
+    color: #F95F1B;
+    text-align: center; /* Centraliza o texto dentro do footer */
+    padding: 10px 0; /* Espaçamento interno do footer */
+}
