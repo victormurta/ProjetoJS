@@ -12,21 +12,19 @@ function processInput() {
     }
 }
 
-let Estado2 = ["Está vivo?", vivos, extintos];
-let vivos2 = ["É pluricelular?", Pluricelulares2, Unicelulares];
-let Pluricelulares2 = ["É vertebrado?", vertebrado2, invertebrado2];
-let vertebrado2 = ["É mamifero?", mamifero];
-                  ["É um peixe?", peixes];
-                  ["É um réptil?", reptil];
-                  ["É uma ave?", aves];
-let Estado = {vivos, extintos};
-let vivos = {Pluricelular, Unicelulares};
-let Pluricelular = {vertebrados, invertebrados};
+let Estado = ["Está vivo?", vivos, extintos];
+let vivos = ["É pluricelular?", Pluricelulares, Unicelulares];
+let Pluricelulares = ["É vertebrado?", vertebrado, invertebrados];
+let vertebrado = ["É um mamífero?", mamiferos],
+                 ["É um peixe?", peixes],
+                 ["É um reptil"]
+
+
 let Unicelulares = {bactérias, protozoários};
 let invertebrados = {mar, naoDoMar};
 let vertebrados = {mamiferos, peixes, repteis, aves};
 
-let mamiferos = {MamDomestico, MamNaoDomestico}; 
+let mamiferos = ["É doméstico?", MamDomestico, MamNaoDomestico]; 
 let MamNaoDomestico = {aquatico, voa, terrestre};
 let terrestre = {faztoicinho, naoFazToicinho}; let faztoicinho = ["porco"]; let voa = ["morcego"];
 let aquatico = {grande, pequeno}; let grande = ["baleia"]; let pequeno = ["lontra"];
@@ -62,61 +60,66 @@ let naoDoMar = {InfectaHumanos, NãoInfectaHumanos};
 
 function adivinhaAnimal(){
     /*
-            Estão vivos: DONE
-                Pluricelular: DONE
-                    Vertebrados: DONE
-                        mamíferos: DONE
-                            é doméstico: DONE
+            Estão vivos:
+                Pluricelular:
+                    Vertebrados:
+                        mamíferos: 
+                            é doméstico:
                                 Maltês, Um gato
-                            não é doméstico: DONE
+                            não é doméstico:
                                 é aquático:
-                                    é grande: DONE
+                                    é grande:
                                         Baleia
-                                    não é grande DONE
+                                    não é grande
                                         Lontra
-                                voa: DONE
+                                voa:
                                     Morcego
-                                terrestre: DONE
-                                    Faz toicinho: DONE
+                                terrestre:
+                                    Faz toicinho: 
                                         vaca
-                                    Não faz toicinho DONE
+                                    Não faz toicinho
                                         porco
-                        peixes: DONE
-                            oceano profundo: DONE
-                                peixe-lanterna, peixe-bolha
-                            não oceano profundo: DONE
-                                doméstico: DONE
-                                    beta, peixinho dourado
-                                não doméstico: DONE
+                        peixes:
+                            oceano profundo:
+                                gera luz:
+                                    peixe-lanterna
+                                não gera luz:
+                                    peixe-bolha
+                            não oceano profundo:
+                                doméstico: 
+                                    sociável: 
+                                        peixinho dourado
+                                    não sociável:
+                                        peixe beta
+                                não doméstico:
                                     água doce:
                                         piranha
                                     água salgada:
                                         tubarão 
-                        répteis: DONE
-                            tem casco: DONE
-                                tartaruga, jabuti
-                                    Nada: DONE
-                                        tartaruga
-                                    Não nada: DONE
-                                        jabuti
-                                Não tem casco: DONE
-                                    tem patas: DONE
+                        répteis:
+                            tem casco:
+                                Nada:
+                                    tartaruga
+                                Não nada:
+                                    jabuti
+                                Não tem casco:
+                                    tem patas:
                                         pequeno:
                                             calango
                                         grande:
                                             iguana
-                                    Não tem patas: DONE
+                                    Não tem patas:
                                         tem veneno:
                                             víbora
                                         Não tem veneno
                                             giboia
-                        aves: DONE
-                            voa: DONE
+                        aves: 
+                            voa:
                                 é da cidade:
                                     pombo
                                 não é da cidade
                                     harpia
-                            não voa: DONE
+                            não voa:
                                 pequeno:
                                     galinha
                                 grande: 
