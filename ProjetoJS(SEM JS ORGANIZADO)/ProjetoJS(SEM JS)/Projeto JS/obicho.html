@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha Bicharada</title>
+    <link rel="stylesheet" href="obicho.css">
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="bloco">
+        <h1>Adivinha Bicharada</h1>
+        <script src="pagina.js"></script>
+        <p id = "nome">Bicho</p>
+        <img id = "Imagem" >
+        <div class="botoes">
+            <a href="reinicio.html" class="botaosim">SIM</a>
+            <a href="ojogo.html" class="botaonao">NAO</a>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="rodape">
+            Grupo: Alícia, Ana, Rillory, Victor Murta
+        </div>
+    </footer>
+    <script src="Scripts/Script2.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const estado = localStorage.getItem('animal');
+            document.getElementById('nome').innerHTML = "O animal é: " + estado;
+            document.getElementById('Imagem').src = `Img/${estado}.png`;
+        });
+    </script>
+</body>
+</html>
