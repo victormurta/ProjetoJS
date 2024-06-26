@@ -79,3 +79,7 @@ footer {
     text-align: center; /* Centraliza o texto dentro do footer */
     padding: 10px 0; /* Espaçamento interno do footer */
 }
+
+.imagem-bixo{
+    opacity: 1;
+}

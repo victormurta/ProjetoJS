@@ -81,8 +81,6 @@ let arvore = {
                             }
                         },
                         não: {
-                            pergunta: "É uma ave?",
-                            sim: {
                                 pergunta: "Voa?",
                                 sim: {
                                     pergunta: "É da cidade?",
@@ -95,7 +93,6 @@ let arvore = {
                                     não: "Galinha"
                                 }
                             }
-                        }
                     }
                 }
             },
