@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+
+h1{
+    font-family: "Playwrite IT Moderna";
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 25px; /* Espaçamento superior entre o parágrafo e as listas */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da janela visível */
+    margin: 0; /* Remove margem padrão do body */
+    flex-direction: column;
+}
+
+section{
+    background-color: white;
+    opacity: 70%;
+    align-self: center;
+    width: 80%; /* Largura da section */
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Largura total do footer */
+    background-color: #003727;
+    color: #F95F1B;
+    text-align: center; /* Centraliza o texto dentro do footer */
+    padding: 10px 0; /* Espaçamento interno do footer */
+}
